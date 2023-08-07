@@ -25,29 +25,31 @@ public class BillController {
     @Autowired
     ProductService productService;
 
-    @GetMapping("/admin/bills")
-    public String listUsers(Model model) {
-        model.addAttribute("bills", billService.getAllBills());
-        return "bills";
-    }
-
-    @GetMapping("/admin/bills/search")
-    public String searchBill(@RequestParam String keyword, Model model) {
-        List<Bill> results = billService.search(keyword);
-        model.addAttribute("bills", results);
-
-        return "bills";
-    }
+//    @GetMapping("/admin/bills")
+//    public String listUsers(Model model) {
+//        model.addAttribute("bills", billService.getAllBills());
+//        return "bills";
+//    }
+//
+//    @GetMapping("/admin/bills/search")
+//    public String searchBill(@RequestParam String keyword, Model model) {
+//        List<Bill> results = billService.search(keyword);
+//        model.addAttribute("bills", results);
+//
+//        return "bills";
+//    }
 
     @GetMapping("/bills/history/{id}")
     public String updateCategory(@PathVariable int id, Model model) {
         List<Bill> listBills = billService.getAllBills();
+        // tao ra danh sach de chua hoa don khi thanh toan thanh cong.
         List<Bill> bills = new ArrayList<Bill>();
         for (int i = 0; i < listBills.size(); i++) {
             if (listBills.get(i).getUser().getId() == id) {
                 bills.add(listBills.get(i));
             }
         }
+        // tao ra model de chua thong tin can dua ra trang html.
         model.addAttribute("bills", bills);
         return "history";
     }
@@ -56,7 +58,7 @@ public class BillController {
     public String viewBill(Model model, @PathVariable int id, HttpSession session) {
         List<Product> productCurrent = productService.getAllProduct();
         List<String> productName = billService.getBillById(id).get().getProductName();
-
+        //
         List<String> products = new ArrayList<>();
         List<Integer> quantities = new ArrayList<>();
         for (String subString : productName) {
@@ -66,7 +68,7 @@ public class BillController {
                 quantities.add(Integer.parseInt(parts[1].trim()));
             }
         }
-
+        
         List<Double> prices = new ArrayList<>();
         for (Product product : productCurrent) {
             for (int i = 0; i < products.size(); i++) {
@@ -87,38 +89,38 @@ public class BillController {
 
     }
 
-    @GetMapping("/admin/bills/viewbill/{id}")
-    public String viewBillAmin(Model model, @PathVariable int id, HttpSession session) {
-        List<Product> productCurrent = productService.getAllProduct();
-        List<String> productName = billService.getBillById(id).get().getProductName();
-
-        List<String> products = new ArrayList<>();
-        List<Integer> quantities = new ArrayList<>();
-        for (String subString : productName) {
-            String[] parts = subString.trim().split(" x ");
-            if (parts.length == 2) {
-                products.add(parts[0].trim());
-                quantities.add(Integer.parseInt(parts[1].trim()));
-            }
-        }
-
-        List<Double> prices = new ArrayList<>();
-        for (Product product : productCurrent) {
-            for (int i = 0; i < products.size(); i++) {
-                if (product.getName().equals(products.get(i))) {
-                    prices.add(product.getPrice() * quantities.get(i));
-                }
-            }
-        }
-        System.out.println(products);
-        System.out.println(quantities);
-        System.out.println(prices);
-
-        model.addAttribute("bill", billService.getBillById(id).get());
-        model.addAttribute("products", products);
-        model.addAttribute("quantities", quantities);
-        model.addAttribute("prices", prices);
-        return "viewBillAdmin";
-
-    }
+//    @GetMapping("/admin/bills/viewbill/{id}")
+//    public String viewBillAmin(Model model, @PathVariable int id, HttpSession session) {
+//        List<Product> productCurrent = productService.getAllProduct();
+//        List<String> productName = billService.getBillById(id).get().getProductName();
+//
+//        List<String> products = new ArrayList<>();
+//        List<Integer> quantities = new ArrayList<>();
+//        for (String subString : productName) {
+//            String[] parts = subString.trim().split(" x ");
+//            if (parts.length == 2) {
+//                products.add(parts[0].trim());
+//                quantities.add(Integer.parseInt(parts[1].trim()));
+//            }
+//        }
+//
+//        List<Double> prices = new ArrayList<>();
+//        for (Product product : productCurrent) {
+//            for (int i = 0; i < products.size(); i++) {
+//                if (product.getName().equals(products.get(i))) {
+//                    prices.add(product.getPrice() * quantities.get(i));
+//                }
+//            }
+//        }
+//        System.out.println(products);
+//        System.out.println(quantities);
+//        System.out.println(prices);
+//
+//        model.addAttribute("bill", billService.getBillById(id).get());
+//        model.addAttribute("products", products);
+//        model.addAttribute("quantities", quantities);
+//        model.addAttribute("prices", prices);
+//        return "viewBillAdmin";
+//
+//    }
 }
