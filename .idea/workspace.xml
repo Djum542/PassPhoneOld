@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="94f5ac50-75dc-423c-96a4-f13a7af8ef9b" name="Changes" comment="chua co jwt voi json">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/ShopProjectApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/configuration/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/BillController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/CartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/UserRegistrationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/convert/StringListConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/dto/BillDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/dto/ProductDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/dto/UserRegistrationDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/Bill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/repository/BillRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/repository/CategoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/repository/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/BillService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/BillServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/403Style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/cart_page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/checkout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/history.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/login_page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/taibase.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/taimain.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/tairesponsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/viewProduct.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/Nokia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/Oppo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/Realme.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/SamSung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/Vivo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/Xiaomi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/advertise1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/advertise2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/advertise3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/advertise4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/advertise5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/advertise6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/background-slider1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/background-slider2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/background-slider3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/iPhone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/logo-header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/product1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/403.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/hiddenNavbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/productsAdd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/switchformlogin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gdu/nhom1/shopproject/ShopProjectApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2fe35462-4d35-4bcd-8ed3-bfdb929213ac" />
+        <option name="url" value="https://github.com/TrongBui15012002/PhoneZTest.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2TdpHwWZ4cnw6eYmJHS8CHoPIRo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "A:/thuctap/PhoneZTest",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "0d31f30c4d635c4ffbf1f7282c24f1de",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ShopProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="shop-project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gdu.nhom1.shopproject.ShopProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94f5ac50-75dc-423c-96a4-f13a7af8ef9b" name="Changes" comment="" />
+      <created>1691382728597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691382728597</updated>
+      <workItem from="1691382729873" duration="10426000" />
+      <workItem from="1691480329720" duration="1342000" />
+    </task>
+    <task id="LOCAL-00001" summary="chua co jwt voi json">
+      <option name="closed" value="true" />
+      <created>1691396664866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691396664866</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chua co jwt voi json" />
+    <option name="LAST_COMMIT_MESSAGE" value="chua co jwt voi json" />
+  </component>
+</project>
