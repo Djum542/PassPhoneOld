@@ -7,7 +7,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 
 import com.gdu.nhom1.shopproject.dto.UserRegistrationDTO;
 import com.gdu.nhom1.shopproject.models.User;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface UserService extends UserDetailsService {
     List<User> findALL();
 
@@ -22,4 +24,5 @@ public interface UserService extends UserDetailsService {
     User findByEmail(String email);
 
     List<User> search(String keyword);
+    Optional<User> findByName(String email);
 }

@@ -86,9 +86,10 @@ public class UserServiceImpl implements UserService {
         return userRepository.findByEmailContainingIgnoreCase(keyword);
     }
 
-
-
-
+    @Override
+    public Optional<User> findByName(String email) {
+        return Optional.empty();
+    }
 
 
 }
