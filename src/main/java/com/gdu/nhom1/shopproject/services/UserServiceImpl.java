@@ -27,14 +27,14 @@ public class UserServiceImpl implements UserService {
     private UserRepository userRepository;
 
     @Autowired
-    private BCryptPasswordEncoder passwordEncoder;
+    private BCryptPasswordEncoder passwordEncoders;
 
 
     @Override
     public User addUser(UserRegistrationDTO registrationDto) {
         User user = new User(registrationDto.getFirstName(),
                 registrationDto.getLastName(), registrationDto.getEmail(),
-                passwordEncoder.encode(registrationDto.getPassword()), Arrays.asList(new Role("ROLE_USER")));
+                passwordEncoders.encode(registrationDto.getPassword()), Arrays.asList(new Role("ROLE_USER")));
 
         return userRepository.save(user);
     }
@@ -71,7 +71,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void updateUser(User user) {
-        user.setPassword(passwordEncoder.encode(user.getPassword().toString()));
+        user.setPassword(passwordEncoders.encode(user.getPassword().toString()));
         user.setRoles(Arrays.asList(new Role("ROLE_USER")));
         userRepository.save(user);
     }

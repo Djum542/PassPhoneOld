@@ -4,63 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94f5ac50-75dc-423c-96a4-f13a7af8ef9b" name="Changes" comment="chua co jwt voi json">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/bo/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/bo/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/configuration/ApplicationSecurity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/dto/AuthRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/jwt/JwtTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/jwt/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/models/AuthReponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/repository/RoleReponsitory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/services/Userservices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/swagger/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/gdu/nhom1/shopproject/UserRepositoryTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/configuration/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/controllers/AdminController.java" beforeDir="false" />
+    <list default="true" id="94f5ac50-75dc-423c-96a4-f13a7af8ef9b" name="Changes" comment="chua co jwt">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/bo/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jwt.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/bo/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/bo/AdminControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/bo/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/bo/UserControllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/configuration/ApplicationSecurity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/configuration/SecurityConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/controllers/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/models/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/jwt/JwtTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/jwt/JwtTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/jwt/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/jwt/JwtTokenUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/services/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/ShopProjectApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/ShopProjectApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/configuration/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/configuration/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/services/Userservices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/configuration/SecurityConfig.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/CartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/UserRegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/UserRegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/convert/StringListConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/convert/StringListConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/dto/BillDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/dto/BillDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/dto/ProductDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/dto/ProductDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/dto/UserRegistrationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/dto/UserRegistrationDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/Bill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/Bill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/repository/BillRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/repository/BillRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/repository/CategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/repository/CategoryRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/repository/ProductRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/BillService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/BillService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/BillServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/BillServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/CategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/ProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/jwt/JwtTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/jwt/JwtTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/jwt/JwtTokenUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/jwt/JwtTokenUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/Userservices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/services/Userservices.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/gdu/nhom1/shopproject/ShopProjectApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gdu/nhom1/shopproject/ShopProjectApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gdu/nhom1/shopproject/UserRepositoryTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/gdu/nhom1/shopproject/UserRepositoryTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +39,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -118,7 +87,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "second",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "A:/thuctap/PhoneZTest",
     "node.js.detected.package.eslint": "true",
@@ -161,7 +130,10 @@
       <option name="presentableId" value="Default" />
       <updated>1691382728597</updated>
       <workItem from="1691382729873" duration="8877000" />
-      <workItem from="1691569133644" duration="5552000" />
+      <workItem from="1691569133644" duration="6147000" />
+      <workItem from="1691629922242" duration="2030000" />
+      <workItem from="1691716454621" duration="81000" />
+      <workItem from="1691720945987" duration="10155000" />
     </task>
     <task id="LOCAL-00001" summary="chua co jwt voi json">
       <option name="closed" value="true" />
@@ -171,7 +143,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691396664866</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="chua co jwt">
+      <option name="closed" value="true" />
+      <created>1691574944127</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691574944128</updated>
+    </task>
+    <task id="LOCAL-00003" summary="chua co jwt">
+      <option name="closed" value="true" />
+      <created>1691574966896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691574966896</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +178,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chua co jwt voi json" />
-    <option name="LAST_COMMIT_MESSAGE" value="chua co jwt voi json" />
+    <MESSAGE value="chua co jwt" />
+    <option name="LAST_COMMIT_MESSAGE" value="chua co jwt" />
   </component>
 </project>

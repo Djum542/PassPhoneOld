@@ -34,18 +34,18 @@ public class AuthController {
     public String errorPage() {
         return "403";
     }
-    @PostMapping ("/auth/logins")
-    public ResponseEntity<?> loginauth(@RequestBody @Valid AuthRequest request){
-        try {
-            Authentication authentication = authManager.authenticate(
-                    new UsernamePasswordAuthenticationToken(request.getEmail(), request.getPassword())
-            );
-            User user = (User) authentication.getPrincipal();
-            String accessToken = jwtUtil.generaAccessToken(user);
-            AuthReponse reponse = new AuthReponse(user.getEmail(),accessToken);
-            return ResponseEntity.ok().body(reponse);
-        }catch (BadCredentialsException e){
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
-        }
-    }
+//    @PostMapping ("/auth/logins")
+//    public ResponseEntity<?> loginauth(@RequestBody @Valid AuthRequest request){
+//        try {
+//            Authentication authentication = authManager.authenticate(
+//                    new UsernamePasswordAuthenticationToken(request.getEmail(), request.getPassword())
+//            );
+//            User user = (User) authentication.getPrincipal();
+//            String accessToken = jwtUtil.generateAccessToken(user);
+//            AuthReponse reponse = new AuthReponse(user.getEmail(),accessToken);
+//            return ResponseEntity.ok().body(reponse);
+//        }catch (BadCredentialsException e){
+//            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
+//        }
+//    }
 }
