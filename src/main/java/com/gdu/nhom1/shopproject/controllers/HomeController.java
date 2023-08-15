@@ -5,6 +5,7 @@ import java.util.List;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
@@ -65,7 +66,13 @@ public class HomeController {
         session.setAttribute("session", session);
         return "shop";
     }
-
+    @GetMapping("/jsonpro")
+    public ResponseEntity<Model> jsonAll(Model model, HttpSession session){
+        model.addAttribute("categoty", categoryService.getAllCategory());
+        model.addAttribute("products", productService.getAllProduct());
+        session.setAttribute("session", session);
+        return ResponseEntity.ok(model);
+    }
     @GetMapping("/shop/category/{id}")
     public String shopByCategory(Model model, @PathVariable int id, HttpSession session) {
         model.addAttribute("categories", categoryService.getAllCategory());

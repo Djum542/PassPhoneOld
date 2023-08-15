@@ -49,7 +49,7 @@ public class ApplicationSecurity extends WebSecurityConfigurerAdapter {
 		http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.ALWAYS);
 		
 		http.authorizeRequests()
-				.antMatchers("/auth/login", "/docs/**", "/users","/","/home","/shop/**","/register/**","/login/**").permitAll()
+				.antMatchers("/auth/login", "/docs/**", "/users","/","/home","/shop/**","/register/**","/login/**","/jsonpro/**").permitAll()
 				.anyRequest().authenticated()
 				.and()
 				.formLogin()

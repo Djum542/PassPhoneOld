@@ -5,57 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94f5ac50-75dc-423c-96a4-f13a7af8ef9b" name="Changes" comment="chua co jwt voi json">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/RoleRepositorys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/Roles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/UserRepositorys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/api/UserApis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/api/UserDTOs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/api/UserServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/ApplicationSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/ApplicationSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/configuration/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/jwt/JwtTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/jwt/JwtTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/jwt/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/jwt/JwtTokenUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/models/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/api/AuthApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/controllers/AuthApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/api/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/dto/AuthRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/api/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/dto/AuthResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/api/UserApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/api/UserDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/user/api/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/ApplicationSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/ApplicationSecurity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/configuration/SecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/jwt/JwtTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/jwt/JwtTokenFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/jwt/JwtTokenUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/jwt/JwtTokenUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/user/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/user/RoleRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/user/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/user/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/user/api/AuthApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/user/api/AuthRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/user/api/AuthResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/user/api/UserApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/user/api/UserDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/user/api/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gdu/nhom1/shopproject/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gdu/nhom1/shopproject/controllers/HomeController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +102,7 @@
       <updated>1691382728597</updated>
       <workItem from="1691382729873" duration="10426000" />
       <workItem from="1691480329720" duration="1342000" />
-      <workItem from="1692068596015" duration="2982000" />
+      <workItem from="1692068596015" duration="3349000" />
     </task>
     <task id="LOCAL-00001" summary="chua co jwt voi json">
       <option name="closed" value="true" />
@@ -159,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691396664866</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="chua co jwt voi json">
+      <option name="closed" value="true" />
+      <created>1692071735614</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692071735614</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
