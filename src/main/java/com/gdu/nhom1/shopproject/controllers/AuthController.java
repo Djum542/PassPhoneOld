@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class AuthController {
 
-    @PostMapping("/login")
+    @GetMapping("/login")
     public String login() {
         return "login";
     }

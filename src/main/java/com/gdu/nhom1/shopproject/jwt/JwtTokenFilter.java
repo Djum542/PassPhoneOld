@@ -7,8 +7,9 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.gdu.nhom1.shopproject.user.Role;
-import com.gdu.nhom1.shopproject.user.User;
+
+import com.gdu.nhom1.shopproject.models.Role;
+import com.gdu.nhom1.shopproject.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;

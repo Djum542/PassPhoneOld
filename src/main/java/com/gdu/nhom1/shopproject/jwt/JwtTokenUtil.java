@@ -3,7 +3,8 @@ package com.gdu.nhom1.shopproject.jwt;
 import java.util.Date;
 import java.util.Set;
 
-import com.gdu.nhom1.shopproject.user.User;
+
+import com.gdu.nhom1.shopproject.models.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;

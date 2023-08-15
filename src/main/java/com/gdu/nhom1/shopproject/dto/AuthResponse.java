@@ -1,4 +1,4 @@
-package com.gdu.nhom1.shopproject.user.api;
+package com.gdu.nhom1.shopproject.dto;
 
 public class AuthResponse {
 	private String email;

@@ -1,9 +1,11 @@
-package com.gdu.nhom1.shopproject.user.api;
+package com.gdu.nhom1.shopproject.controllers;
 
 import javax.validation.Valid;
 
 import com.gdu.nhom1.shopproject.jwt.JwtTokenUtil;
-import com.gdu.nhom1.shopproject.user.User;
+
+import com.gdu.nhom1.shopproject.dto.AuthResponse;
+import com.gdu.nhom1.shopproject.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,7 +13,6 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,7 +25,7 @@ public class AuthApi {
 	JwtTokenUtil jwtUtil;
 	
 	@PostMapping("/auth/login")
-	public ResponseEntity<?> login(@RequestBody @Valid AuthRequest request) {
+	public ResponseEntity<?> login(@RequestBody @Valid User request) {
 		try {
 			Authentication authentication = authManager.authenticate(
 					new UsernamePasswordAuthenticationToken(
